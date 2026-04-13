@@ -1,10 +1,3 @@
-import os
-
-# Define the content for the README.md
-readme_content = """# Exercícios de Lógica de Programação - Lista 3
-
-Este repositório contém a resolução de exercícios de lógica de programação desenvolvidos em Portugol (Visualg) e as suas respetivas representações em fluxogramas.
-
 ## 👤 Identificação
 * **Autora:** Julia Vitoria S.S [cite: 1, 2]
 * **Data de Criação:** 13/04/2026 [cite: 1, 2]
@@ -40,9 +33,3 @@ Foram incluídos fluxogramas para cada exercício, detalhando o fluxo de entrada
 *Documentação gerada para entrega da lista de exercícios 3.*
 """
 
-# Save the content to a .md file
-file_name = "README.md"
-with open(file_name, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print(f"Arquivo {file_name} gerado com sucesso.")
